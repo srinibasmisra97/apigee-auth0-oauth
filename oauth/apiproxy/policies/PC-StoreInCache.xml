@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="PC-StoreInCache">
+    <DisplayName>PC-StoreInCache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>auth_session</Prefix>
+        <KeyFragment ref="messageid"/>
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>3600</TimeoutInSec>
+    </ExpirySettings>
+    <Source>auth_session_info</Source>
+</PopulateCache>

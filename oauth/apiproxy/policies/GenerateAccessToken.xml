@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="GenerateAccessToken">
+    <DisplayName>GenerateAccessToken</DisplayName>
+    <ExpiresIn>1800000</ExpiresIn>
+    <RefreshTokenExpiresIn>86400000</RefreshTokenExpiresIn>
+    <ExternalAuthorization>false</ExternalAuthorization>
+    <Operation>GenerateAccessToken</Operation>
+    <SupportedGrantTypes>
+        <GrantType>authorization_code</GrantType>
+    </SupportedGrantTypes>
+    <Attributes>
+        <Attribute name="auth0_access_token" ref="auth0_access_token"/>
+    </Attributes>
+    <GenerateResponse enabled="false"/>
+    <Tokens/>
+</OAuthV2>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache async="false" continueOnError="false" enabled="true" name="LC-GetSessionInfo">
+    <DisplayName>LC-GetSessionInfo</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>auth_session</Prefix>
+        <KeyFragment ref="request.queryparam.sessionid"/>
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <AssignTo>auth_session_info</AssignTo>
+</LookupCache>

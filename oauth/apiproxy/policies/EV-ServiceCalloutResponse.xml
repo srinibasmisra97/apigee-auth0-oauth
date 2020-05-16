@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-ServiceCalloutResponse">
+    <DisplayName>EV-ServiceCalloutResponse</DisplayName>
+    <JSONPayload>
+        <Variable name="auth0_access_token">
+            <JSONPath>$.access_token</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source>getAccessTokenResponse</Source>
+</ExtractVariables>

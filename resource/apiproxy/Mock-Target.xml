@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Mock-Target">
+    <Basepaths>/resource</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1588152016258</CreatedAt>
+    <CreatedBy>srinibas.misra97@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Mock-Target</DisplayName>
+    <LastModifiedAt>1588603965196</LastModifiedAt>
+    <LastModifiedBy>srinibas.misra97@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:e9d87d6c7a7b89654e17add4c1b878095ad8d37e1b0252d37aba54da3b7cc15379e2e3cf285be353d88c70fd7763e485e2bab48a27b5140ea59cdf48cee7fad2</ManifestVersion>
+    <Policies>
+        <Policy>Add-CORS</Policy>
+        <Policy>RF-UserInfoFailed</Policy>
+        <Policy>SC-UserInfo</Policy>
+        <Policy>VerifyAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>Add-CORS</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

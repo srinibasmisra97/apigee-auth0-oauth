@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Add-CORS" version="SHA-512:3159196f5e5415ce62f6bfc14e1d2f8f74ddfe19975f7a1b59c4a0dd65f837f8ea48ef5231d20bd62b3a1b7c51702a690125dadf40c60db918c4e9e48d053264"/>
+        <VersionInfo resourceName="RF-UserInfoFailed" version="SHA-512:abb536555e8128cf009ddce9b8310f3378fa422df7f822f79d49a894e06926a99a9d79105e2012dff7602967fb086f5222db7a3ac82dd4b91731f2d771a35200"/>
+        <VersionInfo resourceName="SC-UserInfo" version="SHA-512:cbdd598cf5398c9843ead4d339a85016af18238c81fa4eaebabcd2e1a8fb2cb19dc294b923bcf190e26089a03952cde98b7181bbc8aa1c76193fc4d5e033d408"/>
+        <VersionInfo resourceName="VerifyAccessToken" version="SHA-512:5723145abe0a00e9a83140516cb6b205bce997bb517390a0a48572cacb3b19b715d23f27ba6c5f6fdae5d34912807922321bc214c9cc3d026b7f97b8605da149"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="Add-CORS" version="SHA-512:e0fc6185c39122625beacbf6a6f3ec3eba611c252f88968802d873b04952fb5d9f31ee22c6d3a953a03c13b5300c30427604065e586e1ce5d3870ad70c700974"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9d6a1729e3fe64fa5a1af9f1c1ecedbbbe58592634d789a71a0e95f146e971d1c01434c0a2d310984d395357474df4b3a073115469971e57080fa8615f3afb76"/>
+    </TargetEndpoints>
+</Manifest>

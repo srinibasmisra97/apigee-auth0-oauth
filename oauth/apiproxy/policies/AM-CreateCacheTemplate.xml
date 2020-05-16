@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-CreateCacheTemplate">
+    <DisplayName>AM-CreateCacheTemplate</DisplayName>
+    <AssignVariable>
+        <Name>auth_session_info</Name>
+        <Template>
+            {
+                "client_id": "{request.queryparam.client_id}",
+                "redirect_uri": "{request.queryparam.redirect_uri}",
+                "response_type": "{request.queryparam.response_type}",
+                "state": "{request.queryparam.state}"
+            }
+        </Template>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

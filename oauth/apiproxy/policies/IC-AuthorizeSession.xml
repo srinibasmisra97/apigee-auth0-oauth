@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InvalidateCache async="false" continueOnError="false" enabled="true" name="IC-AuthorizeSession">
+    <DisplayName>IC-AuthorizeSession</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>auth_session</Prefix>
+        <KeyFragment ref="request.queryparam.sessionid"/>
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <PurgeChildEntries>false</PurgeChildEntries>
+</InvalidateCache>

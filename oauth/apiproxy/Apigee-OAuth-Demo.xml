@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="Apigee-OAuth-Demo">
+    <Basepaths>/vi/oauth</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1587876720965</CreatedAt>
+    <CreatedBy>srinibas.misra97@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Apigee-OAuth-Demo</DisplayName>
+    <LastModifiedAt>1588602954536</LastModifiedAt>
+    <LastModifiedBy>srinibas.misra97@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:e94914981a9b78be2927a4e7358334d1e32071f65febe550a06c6dde8db83779a5ca8dd3fd8cf59f486790e2fb4b8fb6fc7e63a4831235a9e79335fe58e1031c</ManifestVersion>
+    <Policies>
+        <Policy>AM-ClientRedirect</Policy>
+        <Policy>AM-CreateCacheTemplate</Policy>
+        <Policy>AM-CreateJSONResponse</Policy>
+        <Policy>AM-RedirectToLogin</Policy>
+        <Policy>Add-CORS</Policy>
+        <Policy>DecodeAuthCode</Policy>
+        <Policy>EV-GetSessionInfo</Policy>
+        <Policy>EV-ServiceCalloutResponse</Policy>
+        <Policy>GenerateAccessToken</Policy>
+        <Policy>GenerateAuthorizationCode</Policy>
+        <Policy>IC-AuthorizeSession</Policy>
+        <Policy>KVM-GetAuth0Credentials</Policy>
+        <Policy>LC-GetSessionInfo</Policy>
+        <Policy>PC-StoreInCache</Policy>
+        <Policy>SC-GetAccessToken</Policy>
+        <Policy>VerifyClientID-FormParam</Policy>
+        <Policy>VerifyClientID</Policy>
+        <Policy>generateLoginURL</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://generateLoginURL.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

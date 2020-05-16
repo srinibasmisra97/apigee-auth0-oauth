@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="Add-CORS">
+    <FaultRules>
+        <FaultRule name="SC-Error">
+            <Step>
+                <Name>RF-UserInfoFailed</Name>
+                <Condition>(fault.name Matches "ExecutionFailed")</Condition>
+            </Step>
+        </FaultRule>
+    </FaultRules>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>VerifyAccessToken</Name>
+                <Condition>(request.verb != "OPTIONS")</Condition>
+            </Step>
+            <Step>
+                <Name>SC-UserInfo</Name>
+                <Condition>(request.verb != "OPTIONS")</Condition>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <Flows>
+    </Flows>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <HTTPProxyConnection>
+        <BasePath>/resource</BasePath>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

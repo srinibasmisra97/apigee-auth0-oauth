@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="GenerateAuthorizationCode">
+    <ExternalAuthorization>false</ExternalAuthorization>
+    <Operation>GenerateAuthorizationCode</Operation>
+    <ClientId>session.client_id</ClientId>
+    <RedirectUri>session.redirect_uri</RedirectUri>
+    <GenerateReponse enabled="true"/>
+    <ResponseType>session.response_type</ResponseType>
+    <Attributes>
+        <Attribute name="auth0_code" ref="request.queryparam.code"/>
+    </Attributes>
+    <SupportedGrantTypes/>
+    <GenerateResponse enabled="true"/>
+    <Tokens/>
+</OAuthV2>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-ClientRedirect" version="SHA-512:4d24a39d7b1def3289160be9bfebfdb2d8e0b4870c23c55cb43e5f9f334e0848f7fef3eceea2b794c59b7f5c9f7a046f81d923e6a79da5ae9120eb10de00bfe6"/>
+        <VersionInfo resourceName="AM-CreateCacheTemplate" version="SHA-512:60b1baf2d0ba013ee4cdda1cbe7aa2f2928c9e3dc1fa59a178e40d55c8a1ce24cc48839893a7b3542df0f2771975b2d6cdb1c7ad892293b8056bcf9fd0ab20dc"/>
+        <VersionInfo resourceName="AM-CreateJSONResponse" version="SHA-512:e7710bbc2438e566364947de91b031285b6d569f161f0278d2b1ed9e89efcb9964fe2b19741d0251422f331105dff400412ab57e1b003f4ffdb3a666c8ff41e5"/>
+        <VersionInfo resourceName="AM-RedirectToLogin" version="SHA-512:c632bc4f15a0b8a14bd764010445b2ebb1144406e4a26f1bf443206579220bf4497924cdcca1dda648be9870c24a1e453060ff755574b9b87a9307cc75637916"/>
+        <VersionInfo resourceName="Add-CORS" version="SHA-512:0b27b15c31806952a58a0fdbc963bbf14aa0026310e09d11c67203f6adb934703dc8f1373f42a25c75c34f7e09420a15376ef9f4c316817bc247e8229e4390da"/>
+        <VersionInfo resourceName="DecodeAuthCode" version="SHA-512:5096a699a4c274d9c35f821745c01a95ff3421c45ed09d318ee0345d2a15f427888f253cf0dfc523036fb3374aafa5a4030f9a3210afe520c5a32c887766d140"/>
+        <VersionInfo resourceName="EV-GetSessionInfo" version="SHA-512:0fa4c7f62e994dec4821d925cc8e877470f4c73da4e4f2fe4c4f50f9266c03dd2ebc0561a02963e06261dc9356403091fbab858cef531db4847b016498c7664e"/>
+        <VersionInfo resourceName="EV-ServiceCalloutResponse" version="SHA-512:f01a76ea97acb44d9013c1eb68e8562d8b8e3591b14c6f128c564a194de415cd126a052b0d00f08f5341286ff61680e3c8d9f12a332cfd6da42f01c2d7ca3bbc"/>
+        <VersionInfo resourceName="GenerateAccessToken" version="SHA-512:64bd23909bb39fae7f8708ab8966b30d12abce24fac01e1c527e55f61b6bb46e5aef209ba1d071997fdac5bfd62fbaa9d679d91eeef1d3cb02ffcd784a9338f9"/>
+        <VersionInfo resourceName="GenerateAuthorizationCode" version="SHA-512:bad6a7a411f9dbad47c6ebc9558c94d31fe3feabdf9e253ed19fea579d72ee1de9d389a229f9b9d9cd31ddd1660bf2d232c0e69c3e370deffeb8d53e2160357c"/>
+        <VersionInfo resourceName="IC-AuthorizeSession" version="SHA-512:1d16668ea7ae6959ed2ae42e608f6c56e542362caa26c71644046c53cb22285cbfb800e43590219152951c76aa61017696ce0b32d1c2d84e9af09c10507ee585"/>
+        <VersionInfo resourceName="KVM-GetAuth0Credentials" version="SHA-512:9d6b535260226941989e6c8a057d026ac68129ec32a9e4b2be7d1130fc72ce3a0d7d28ea05e7dd159484c9131728a6be0bb5c779c90b4328e3cd9605ba16d9f6"/>
+        <VersionInfo resourceName="LC-GetSessionInfo" version="SHA-512:70d30cde0dcf76077f19fb8209a4948a44f671163b67121cad6faeca819c7b22b24272cc5153fd827036b93eb1bf8920db2098c4bf5879dec649520aec59bc52"/>
+        <VersionInfo resourceName="PC-StoreInCache" version="SHA-512:7cfb193dfa3344a0dc6209a545b76229aca9a22424cb431b546fee1d2a3a45eb673cb78af45380258db4430a7182e51446ed8ea9ea4a50173512e7a6cb85f294"/>
+        <VersionInfo resourceName="SC-GetAccessToken" version="SHA-512:bebbf4cac4271835bd8e7ec0c41260b8f65c0067fecce8e664c23471aa9166b554f151f01040280a07bbe1bb83b2d0dc1c73b65a592726b484cd50d104396258"/>
+        <VersionInfo resourceName="VerifyClientID" version="SHA-512:1c1134c51c1fb58dccb34e7a620f30d9f6adec4449c9ceca282b81795b166d868cb7af546338098dce056d0bfa978ec0e759afb883d4490e5bfb1791d209b8bb"/>
+        <VersionInfo resourceName="VerifyClientID-FormParam" version="SHA-512:ff51db246aae9fff0057b7110abe377bae43e0f0d594a66812b1afae31a14584754e77d2d973d29fca0b1fa2c0cd3cd88443c458e86cba2bb97b1595b987d25f"/>
+        <VersionInfo resourceName="generateLoginURL" version="SHA-512:779eaadd66e20686133bf68aef5b49ba2856bf4033879e450fc24f3216dcf0beee4fb1d6b032cddab3d72e66681c118ae1e32510fe062e2103ddcb4edb1f094a"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:4c7a2759ec5e92b676fed069f8367fc60d283a7a7ee88b74e7017d186e3158c88d482c5ef13cce35d03a26175f057e048f81b968405361d2a4d2e31230624660"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://generateLoginURL.js" version="SHA-512:2fea2ec0306f86eaec73873c0addb487953bb7f2c54ad73d0af197c6e4b2c87a2f5e3cf40d9716d14138f396dd06d31fa7d259311a2ae884aed6ac62fda28b62"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

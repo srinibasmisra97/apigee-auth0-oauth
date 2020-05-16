@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-CreateJSONResponse">
+    <DisplayName>AM-CreateJSONResponse</DisplayName>
+    <Set>
+        <Payload contentType="application/json" variablePrefix="@" variableSuffix="#">
+            {
+                "access_token":"@oauthv2accesstoken.GenerateAccessToken.access_token#",
+                "expires_in":"@oauthv2accesstoken.GenerateAccessToken.expires_in#"
+            }
+        </Payload>
+        <Headers>
+            <Header name="Access-Control-Allow-Origin">*</Header>
+            <Header name="Access-Control-Allow-Headers">*</Header>
+            <Header name="Access-Control-Max-Age">3628800</Header>
+            <Header name="Access-Control-Allow-Methods">GET, PUT, POST, DELETE</Header>
+        </Headers>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

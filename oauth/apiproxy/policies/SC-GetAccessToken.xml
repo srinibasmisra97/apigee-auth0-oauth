@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SC-GetAccessToken">
+    <DisplayName>SC-GetAccessToken</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+        <Set>
+            <Verb>POST</Verb>
+            <FormParams>
+                <FormParam name="client_id">{private.auth0_credentials.client_id}</FormParam>
+                <FormParam name="client_secret">{private.auth0_credentials.client_secret}</FormParam>
+                <FormParam name="code">{oauthv2authcode.DecodeAuthCode.auth0_code}</FormParam>
+                <FormParam name="grant_type">authorization_code</FormParam>
+                <FormParam name="redirect_uri">https://{request.header.host}{proxy.basepath}/redirect</FormParam>
+            </FormParams>
+        </Set>
+    </Request>
+    <Response>getAccessTokenResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://dev-srini.auth0.com/oauth/token</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>
